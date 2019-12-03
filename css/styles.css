@@ -10,4 +10,101 @@ body {
   min-width: 1041px;
   max-width: 1440px;
   margin: auto;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+header {
+  background: url('../img/your_verse_hero.jpg') 50% 100% no-repeat;
+  background-size: 1440px 1315px;
+  height: 538px;
+}
+
+.header-nav {
+  width: 980px;
+  margin: auto;
+  position: relative;
+  top: 80px;
+}
+
+.header-nav ul {
+  display: flex;
+  border-radius: 5px;
+  background: linear-gradient(to bottom, #7e7e7e 18px, #606060 15px, #777 90%);
+  box-shadow: inset 0 0 2px 1px rgb(148, 148, 148);
+  border: 1px solid rgb(134, 134, 134);
+}
+
+.header-nav li {
+  width: 105.6px;
+  height: 36px;
+  display: flex;
+  border-right: 1px solid #888;
+  border-width: 0 1px 0 1px;
+}
+
+.header-nav a {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #dbdcdc;
+  font-size: 0.9rem;
+  text-shadow: 1px 1px #000;
+}
+
+.header-nav a:hover {
+  background: linear-gradient(to bottom, #494949 18px, #353535 15px, rgb(66, 66, 66) 90%);
+}
+
+.fa-apple {
+  height: 15px;
+}
+
+.header-nav form label {
+  display: none;
+}
+
+.header-nav li:nth-last-child(1) {
+  width: 131px;
+}
+
+.search-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.fa-search {
+  position: absolute;
+  left: 12px;
+  bottom: 4px;
+  color: #fff;
+}
+
+#search {
+  width: 90%;
+  margin: auto;
+  padding: 2px 18px 1px 22px;
+  background: rgba(255, 255, 255, 0.1);
+  border-top: 1px solid #000;
+  border-radius: 12px;
+  border-bottom: 1px solid #999;
+  border-right: 1px solid #666;
+  border-left: 1px solid #666;
+}
+
+input#search:focus,
+input#search:focus ~ i {
+  background: #fff;
+  color: black;
 }
