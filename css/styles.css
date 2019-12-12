@@ -121,6 +121,7 @@ input#search:focus,
 input#search:focus ~ i {
   background: #fff;
   color: black;
+  outline: none;
 }
 
 .header-link {
