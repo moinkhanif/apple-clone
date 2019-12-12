@@ -91,11 +91,16 @@ footer a:hover {
   width: 131px;
 }
 
+.header-nav li:nth-last-child(1):focus-within {
+  width: 200px;
+}
+
 .search-form {
   display: flex;
   justify-content: center;
   align-items: center;
   position: relative;
+  transition: width 400ms;
 }
 
 .fa-search {
